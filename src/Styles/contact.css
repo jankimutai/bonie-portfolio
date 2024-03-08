@@ -9,14 +9,12 @@
 
 .contact-cont {
   margin-top: 10px;
-  padding: 10px;
-}
-
-.part {
   background: rgba(0, 0, 0, 0.01);
   border-radius: 25px;
-  padding: 20px;
+  padding: 27px;
 }
+
+
 
 .contact-heading {
   font-size: 20px;

@@ -6,28 +6,21 @@ Default styles
 .about-accountant {
     width: 80%;
     margin: auto;
-  }
-  
-
-  .accountant-details{
     background: rgba(0, 0, 0, 0.01);
     border-radius: 25px;
-    padding: 20px;
+    padding: 10px;
   }
-  
   .accountant-details p {
     font-size: 17pt;
     line-height: 1.5;
     transition: color 0.3s ease;
   }
   
+  
   .accountant-skills ul {
     list-style-type: none;
 
-    background: rgba(0, 0, 0, 0.01);
-    border-radius: 25px;
-    padding: 20px;
-    margin-top: 10px;
+    
   }
   
   .accountant-skills li {
@@ -47,7 +40,7 @@ Default styles
   }
   .skill {
     position: relative;
-    padding-left: 25px;
+    padding-left: 29px;
     margin-bottom: 10px;
     font-size: 17pt;
     line-height: 1.5;
@@ -69,14 +62,11 @@ Default styles
     flex-direction: row; /* Display entries in a row */
     justify-content: space-around;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.01);
-    border-radius: 25px;
   }
   
   .education-entry {
     display: flex;
     align-items: center;
-    
     padding: 10px;
     
   }
@@ -106,16 +96,11 @@ Default styles
   }
   
 
-  
-  
-  .experience-entry {
-    padding: 17px;
-    /* box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1); */
-    margin-bottom: 20px;
-    background: rgba(0, 0, 0, 0.01);
-    border-radius: 25px;
-    
+  .experience{
+    margin-top: 20px;;
   }
+  
+ 
   .experience-title{
     font-size: 17pt;
     
@@ -175,16 +160,14 @@ Default styles
     .accountant-details p {
       font-size: 14pt;
     }
-    .accountant-skills ul{
-      padding: 6px;
-    }
+    
     .accountant-skills li {
       font-size: 14pt;
     }
   
     /* Skills Section */
     .skills {
-      padding-left: 9px;
+      padding-left: 6px;
     }
   
     .skill {

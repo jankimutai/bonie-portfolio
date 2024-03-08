@@ -62,18 +62,30 @@
   border-radius: 5px;
   text-decoration: none;
   font-size: 16px;
-  color: #007bff; /* Blue color, adjust as needed */
+  
   cursor: pointer;
   letter-spacing: 0.5px;
   font-weight: 600;
   text-transform: uppercase;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-
-.contactButton:hover {
+.contactButton.primary{
   background-color: #007bff; /* Blue color, adjust as needed */
   color: #fff;
 }
+.contactButton.primary:hover{
+  border: 2px solid #007bff;
+  color: #007bff; 
+  background-color: #fff;
+}
+.contactButton.secondary{
+  color: #007bff; 
+}
+.contactButton.secondary:hover{
+  background-color: #007bff; /* Blue color, adjust as needed */
+  color: #fff;
+}
+
 .contactButton.primary{
   margin-bottom: 10px;
 }

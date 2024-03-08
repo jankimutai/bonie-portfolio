@@ -17,20 +17,43 @@ const About = () => {
       <div className="accountant-skills">
         <h2 className='heading'>02 Skills</h2>
         <ul className='skills'>
-          <li className='skill'> Financial Reporting</li>
+          <li className='skill'>Financial Reporting (Disclosure Requirement,Financial statements preparation and Internal contols)</li>
           <li className='skill'>Budgeting and Forecasting</li>
           <li className='skill'>Tax Planning</li>
           <li className='skill'>Auditing</li>
           <li className='skill'>Bookkeeping</li>
+          <li className='skill'>Leadership (Decision Making, Delegation, Resilience, Integrity, Collaboration, Coaching and Development)</li>
+          <li className='skill'>Ethical Judgement</li>
+          <li className='skill'>Time Management</li>
+          <li className='skill'>QuickBooks (Chart of accounts Management, Navigation, Bank Reconciliation and Data entry)</li>
         </ul>
       </div>
       
       <div className='experience'>
       <h2 className='heading'>03 Experience</h2>
       <div className='experience-entry'>
-        <h3 className='experience-title'>Accounts Assistant</h3>
+      <h3 className='experience-title'>AUDIT ASSISTANT</h3>
+      <h4 className='experience-title'>BACE PARTNERS</h4>
+      <p className='experience-date'>01/2024 – Present</p>
+      <h4 className='experience-title'>Key Resposibilities</h4>
+      <ul className='accomplishments-list'>
+        <li className='accomplishments'>Assisting in the planning and execution of audit procedures</li>
+        <li className='accomplishments'>Conducting tests of controls and substantive testing under the supervision of senior auditors.</li>
+        <li className='accomplishments'>Gathering and analyzing financial data and documents.</li>
+        <li className='accomplishments'>Documenting audit procedures and findings.</li>
+        <li className='accomplishments'>Communicating with clients to obtain necessary information and clarify audit issues.</li>
+        <li className='accomplishments'>Contributing to the preparation of audit reports and recommendations.</li>
+        <li className='accomplishments'>Adhering to auditing standards and regulatory requirements.</li>
+        <li className='accomplishments'>Participating in meetings and discussions with audit team members and clients.</li>
+        <li className='accomplishments'>Continuously learning and improving auditing skills and knowledge.</li>
+      </ul>
+
+      </div>
+      <div className='experience-entry'>
+        <h3 className='experience-title'>ACCOUNTS ASSISTANT</h3>
         <h4>ELPRIS LTD</h4>
         <p className='experience-date'>04/2023 – 01/2024</p>
+        <h4 className='experience-title'>Key Resposibilities</h4>
         <ul className='accomplishments-list'>
           <li className='accomplishments'>Accurately record financial transactions, including sales, purchases, expenses, and other financial activities.</li>
           <li className='accomplishments'>Monitoring and managing accounts receivable, invoicing clients, and ensuring timely collection of payments</li>
@@ -44,6 +67,7 @@ const About = () => {
         <h3 className='experience-title'>ACCOUNTS INTERN</h3>
         <h4>ALEXANDRIA CANCER CENTRE AND PALLIATIVE CARE HOSPITAL</h4>
         <p className='experience-date'>2022 – 2023</p>
+        <h4 className='experience-title'>Key Resposibilities</h4>
         <ul className='accomplishments-list'>
           <li className='accomplishments'>Assisted in entering financial data into accounting software and maintaining
             organized and accurate records of transactions.</li>
@@ -62,6 +86,7 @@ const About = () => {
         <h3 className='experience-title'>INDUSTRIAL ATTACHEMENT</h3>
         <h4>KENYA POWER AND LIGHTING COMPANY</h4>
         <p className='experience-date'>01/2020 – 04/2020</p>
+        <h4 className='experience-title'>Key Resposibilities</h4>
         <ul className='accomplishments-list'></ul>
         <li className='accomplishments'>Assisted in entering financial data into accounting software and maintaining
           organized and accurate records of transactions.</li>

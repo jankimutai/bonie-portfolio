@@ -1,12 +1,11 @@
-/* HomePage.css */
+/* homepage.css */
 
 .homepage {
-  margin: 0 auto;
   padding: 20px;
-  /* background: rgba(0, 0, 0, 0.03); */
   border-radius: 8px;
-  
+  background: rgba(0, 0, 0, 0.03);
 }
+
 
 .accountant-preview {
   display: flex;
@@ -19,36 +18,21 @@
   width: 80%;
 }
 
-.accountant-image {
-  width: 400px; /* Adjust the width as needed */
-  height: auto;
-  border-radius: 50%;
-  margin-right: 50px;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16), 0px 0px 0px 3px rgba(51, 51, 51,1);
-}
-
 .preview-text {
   flex: 1;
   max-width: 700px;
-  border-radius: 10px;
   transition: color 0.3s ease;
-  margin-bottom: 10px;
   align-items: center;
-  box-shadow: 0px 1px 0px 0px rgba(27, 31, 36, 0.04);
-
-  background: rgba(0, 0, 0, 0.01);
-  border-radius: 25px;
   padding: 27px;
-  
+  background: rgba(0, 0, 0, 0.03);
+  margin-top: 30px;
 }
-
 
 .accountant-name{
   font-size: 3rem;
   font-weight: 600;
-  
-
 }
+
 .accountant-name span{
   background: -webkit-linear-gradient(
     top left,
@@ -61,6 +45,7 @@
   background-clip: text;
 
 }
+
 .paragraph-{
   font-size: 17pt;
   line-height: 1.5;
@@ -70,139 +55,40 @@
 
 
 .contactButton {
-  position: relative;
-  padding: 0.6em;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 1em;
-  border: none;
-  letter-spacing: 0.05em;
-  border-radius: 6px;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  background-color: #0077ff;
-  transition: all 0.2s ease;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 2px solid #007bff; /* Blue color, adjust as needed */
+  border-radius: 5px;
   text-decoration: none;
-  
-}
-.contactButton.secondary{
-  margin-left: 20px;
-}
-.contactButton:active {
-  transform: scale(0.96);
-}
-.contactButton:before,
-.contactButton:after {
-  position: absolute;
-  content: "";
-  width: 150%;
-  left: 50%;
-  height: 100%;
-  transform: translateX(-50%);
-  z-index: -1000;
-  background-repeat: no-repeat;
-}
-
-.contactButton:hover:before {
-  top: -70%;
-  background-image: radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, transparent 20%, #0077ff 20%, transparent 30%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, transparent 10%, #0077ff 15%, transparent 20%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%);
-  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
-    10% 10%, 18% 18%;
-  background-position: 50% 120%;
-  animation: greentopBubbles 0.6s ease;
-}
-
-@keyframes greentopBubbles {
-  0% {
-    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
-      40% 90%, 55% 90%, 70% 90%;
-  }
-
-  50% {
-    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
-      50% 50%, 65% 20%, 90% 30%;
-  }
-
-  100% {
-    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
-      50% 40%, 65% 10%, 90% 20%;
-    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-  }
-}
-
-.contactButton:hover::after {
-  bottom: -70%;
-  background-image: radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, transparent 10%, #0077ff 15%, transparent 20%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%),
-    radial-gradient(circle, #0077ff 20%, transparent 20%);
-  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
-  background-position: 50% 0%;
-  animation: greenbottomBubbles 0.6s ease;
-}
-
-@keyframes greenbottomBubbles {
-  0% {
-    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
-      70% -10%, 70% 0%;
-  }
-
-  50% {
-    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
-      105% 0%;
-  }
-
-  100% {
-    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
-      110% 10%;
-    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-  }
-}
-.buttons{
-  display: flex;
-  justify-content: flex-start;
-  
-}
-.iconButton {
-  margin-left: 1.2em;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2.4em;
-  width: 2.4em;
-  border-radius: 1.2em;
-  right: 0.4em;
-  transition: all 0.3s;
+  font-size: 16px;
+  color: #007bff; /* Blue color, adjust as needed */
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .contactButton:hover {
-  transform: translate(-0.05em, -0.05em);
-  box-shadow: 0.2em 0.2em #228b22;
+  background-color: #007bff; /* Blue color, adjust as needed */
+  color: #fff;
+}
+.contactButton.primary{
+  margin-bottom: 10px;
 }
 
-.contactButton:active {
-  transform: translate(0.05em, 0.05em);
-  box-shadow: 0.1em 0.1em #228b22;
+.accountant-image {
+  width: 400px; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 50%;
+  margin-right: 50px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16), 0px 0px 0px 3px rgba(51, 51, 51,1);
 }
 
-/* Styles for Small Screens */
-/* Styles for Small Screens */
 @media screen and (max-width: 767px) {
   .homepage {
-    padding: 10px; /* Adjusted padding for small screens */
+    padding:  0 6px; /* Adjusted padding for small screens */
     margin-top: 75px;
     width: auto;
   }
@@ -250,48 +136,4 @@
     width: 2.8em; /* Adjusted width for smaller screens */
   
   }
-}
-@media screen and (min-width: 768px) and (max-width: 1500px) {
-  .homepage {
-    padding: 10px; /* Adjusted padding for small screens */
-    margin-top: 100px;
-  }
-
-  .accountant-preview {
-    flex-direction: column-reverse; /* Stacked layout on small screens */
-    height: auto; /* Adjusted height for responsiveness */
-  }
-
-  .accountant-image {
-    width: 100%; /* Adjusted width for responsiveness */
-    margin-right: 0;
-    margin-bottom: 20px;
-    max-width: 400px;
-  }
-
-  .content {
-    height: auto;
-    margin: auto;
-  }
-  .preview-text {
-    padding: 13px;
-  }
-  
-  
-  .contactButton {
-    margin-bottom: 15px;
-  }
-  .buttons{
-    display: inline-block;
-    margin: auto;
-    
-  }
-
-  .iconButton {
-    height: 2.2em; /* Adjusted height for smaller screens */
-    width: 2.8em; /* Adjusted width for smaller screens */
-  
-  }
-  
-
 }

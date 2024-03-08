@@ -1,5 +1,6 @@
 #contact {
   height: auto;
+  background: rgba(0, 0, 0, 0.07);
 }
 
 .contact-element {
@@ -8,9 +9,6 @@
 }
 
 .contact-cont {
-  margin-top: 10px;
-  background: rgba(0, 0, 0, 0.01);
-  border-radius: 25px;
   padding: 27px;
 }
 
@@ -67,10 +65,6 @@
     .contact-card {
         width:90%;
         margin:auto;
-    }
-    
-    .part {
-        padding:10px;
     }
     
     .icon {

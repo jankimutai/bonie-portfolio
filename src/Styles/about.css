@@ -1,26 +1,26 @@
-Default styles
+
 #about{
-    background: rgba(0, 0, 0, 0.04);
+    background: rgba(0, 0, 0, 0.06);
     height: auto;
+    padding: 20px;
+    border-top: 4px solid rgba(0, 0, 0, 0.06);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.06);
 }
 .about-accountant {
     width: 80%;
     margin: auto;
-    background: rgba(0, 0, 0, 0.01);
-    border-radius: 25px;
-    padding: 10px;
   }
+  
+
+  
   .accountant-details p {
     font-size: 17pt;
     line-height: 1.5;
     transition: color 0.3s ease;
   }
   
-  
   .accountant-skills ul {
     list-style-type: none;
-
-    
   }
   
   .accountant-skills li {
@@ -30,17 +30,13 @@ Default styles
     transition: color 0.3s ease;
     position: relative;
   }
-  
-
-  
- 
   .skills {
     list-style-type: none;
     padding-left: 0;
   }
   .skill {
     position: relative;
-    padding-left: 29px;
+    padding-left: 25px;
     margin-bottom: 10px;
     font-size: 17pt;
     line-height: 1.5;
@@ -61,12 +57,13 @@ Default styles
     display: flex;
     flex-direction: row; /* Display entries in a row */
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
   }
   
   .education-entry {
     display: flex;
     align-items: center;
+    
     padding: 10px;
     
   }
@@ -86,7 +83,9 @@ Default styles
   .element-paragraph {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
+    font-weight: 500;
   }
+  
   
   .education-heading {
     font-size: 1.3rem;
@@ -96,11 +95,13 @@ Default styles
   }
   
 
-  .experience{
-    margin-top: 20px;;
-  }
   
- 
+  
+  .experience-entry {
+    padding: 27px;
+    /* box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1); */
+    
+  }
   .experience-title{
     font-size: 17pt;
     
@@ -154,20 +155,18 @@ Default styles
       width: 90%; /* Adjust width as needed */
       margin: auto;
     }
-    .accountant-details{
-      padding: 6px;
-    }
+  
     .accountant-details p {
       font-size: 14pt;
     }
-    
+  
     .accountant-skills li {
       font-size: 14pt;
     }
   
     /* Skills Section */
     .skills {
-      padding-left: 6px;
+      padding-left: 10px;
     }
   
     .skill {

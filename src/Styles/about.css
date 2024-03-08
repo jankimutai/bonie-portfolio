@@ -61,13 +61,16 @@
     flex-direction: row; /* Display entries in a row */
     justify-content: space-around;
     padding: 10px;
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 25px;
   }
   
   .education-entry {
     display: flex;
     align-items: center;
-    border-radius: 16px;
+    
     padding: 10px;
+    
   }
   
   .education-icon {
@@ -95,17 +98,14 @@
   }
   
 
-  .experience {
-    margin: 20px 0;
-    
-  }
+  
   
   .experience-entry {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 27px;
+    /* box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1); */
     margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 25px;
     
   }
   
@@ -144,7 +144,7 @@
   @media screen and (max-width: 767px) {
     /* About Section */
     #about {
-      padding: 10px;
+      padding: 3px;
     }
   
     .about-accountant {
@@ -173,7 +173,7 @@
     /* Education Section */
     .education-container {
       flex-direction: column; /* Display entries in a column */
-      padding: 10px;
+      padding: 5px;
     }
   
     .education-entry {
@@ -210,4 +210,14 @@
       margin-bottom: 8px;
     }
   }
+  @media screen and (min-width: 768px) and (max-width: 1500px) {
+    .education-container {
+      flex-direction: column; /* Display entries in a column */
+      padding: 5px;
+    }
   
+    .education-entry {
+      padding: 10px;
+    }
+
+  }

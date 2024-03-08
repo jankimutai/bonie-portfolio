@@ -10,17 +10,17 @@
 
 .accountant-preview {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   width: auto;
   height: auto; /* Adjusted for responsiveness */
-  padding-bottom: 10px;
   height: 90vh;
+  width: 80%;
 }
 
 .accountant-image {
-  width: 450px; /* Adjust the width as needed */
+  width: 400px; /* Adjust the width as needed */
   height: auto;
   border-radius: 50%;
   margin-right: 50px;
@@ -29,7 +29,7 @@
 
 .preview-text {
   flex: 1;
-  max-width: 660px;
+  max-width: 700px;
   padding: 10px;
   border-radius: 10px;
   transition: color 0.3s ease;
@@ -41,7 +41,8 @@
 
 
 .accountant-name{
-  font-size: 2.9rem;
+  font-size: 3rem;
+  font-weight: 600;
   
 
 }
@@ -49,8 +50,7 @@
   background: -webkit-linear-gradient(
     top left,
     rgba(17, 71, 255, 0.64),
-    rgba(18, 55, 246, 1),
-    rgba(17, 71, 255, 0.64)
+    rgba(17, 71, 252, 0.62)
 
   );
   -webkit-background-clip: text;
@@ -117,22 +117,23 @@
 
 /* Styles for Small Screens */
 /* Styles for Small Screens */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 767px) {
   .homepage {
-    padding: 10px; /* Adjusted padding for small screens */
-    margin-top: 70px;
+    padding: 4px; /* Adjusted padding for small screens */
+    margin-top: 80px;
     width: auto;
   }
 
   .accountant-preview {
     flex-direction: column-reverse; /* Stacked layout on small screens */
     height: auto; /* Adjusted height for responsiveness */
+    width: 100%;
   }
 
   .accountant-image {
     width: 100%; /* Adjusted width for responsiveness */
     margin-right: 0;
-    margin-bottom: 20px;
+    max-width: 280px;
   }
 
   .content {
@@ -164,4 +165,49 @@
     width: 2.8em; /* Adjusted width for smaller screens */
   
   }
+}
+@media screen and (min-width: 768px) and (max-width: 1500px) {
+  .homepage {
+    padding: 10px; /* Adjusted padding for small screens */
+    margin-top: 100px;
+    width: auto;
+  }
+
+  .accountant-preview {
+    flex-direction: column-reverse; /* Stacked layout on small screens */
+    height: auto; /* Adjusted height for responsiveness */
+  }
+
+  .accountant-image {
+    width: 100%; /* Adjusted width for responsiveness */
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: 500px;
+  }
+
+  .content {
+    height: auto;
+    margin: auto;
+  }
+  .preview-text {
+    padding: 13px;
+  }
+  
+  
+  .contactButton {
+    margin-bottom: 15px;
+  }
+  .buttons{
+    display: inline-block;
+    margin: auto;
+    
+  }
+
+  .iconButton {
+    height: 2.2em; /* Adjusted height for smaller screens */
+    width: 2.8em; /* Adjusted width for smaller screens */
+  
+  }
+  
+
 }

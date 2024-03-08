@@ -1,6 +1,6 @@
 /* contact.css */
 #contact{
-  background: rgba(0, 0, 0, 0.08);
+  background: rgba(0, 0, 0, 0.07);
 }
 .contact-element {
   display: flex;
@@ -33,9 +33,9 @@
   
 }
 
-.contact-card:hover {
+/* .contact-card:hover {
   transform: translateY(-5px);
-}
+} */
 
 .icon {
   font-size: 3rem;
@@ -46,23 +46,23 @@
   color: #0c4583;
   border: 1px solid #0c4583;
 }
-.email-card:hover{
+/* .email-card:hover{
   box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-}
+} */
 
 .phone-card {
   color: #1ca455;
   border: 1px solid #1ca455;
 }
-.phone-card:hover{
+/* .phone-card:hover{
   box-shadow: 0 0 30px 5px rgba(15, 172, 72, 0.815);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-}
+} */
 .linkedin{
   color:#2366ae
 }

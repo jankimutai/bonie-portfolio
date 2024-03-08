@@ -91,6 +91,7 @@
     padding:  0 6px; /* Adjusted padding for small screens */
     margin-top: 75px;
     width: auto;
+    
   }
 
   .accountant-preview {
@@ -100,6 +101,7 @@
   }
 
   .accountant-image {
+    margin-top: 10px;
     width: 100%; /* Adjusted width for responsiveness */
     margin-right: 0;
     max-width: 280px;
@@ -149,10 +151,10 @@
     height: auto; /* Adjusted height for responsiveness */
     width: 100%;
   }
-  
-  
-
-  
+  .accountant-image {
+    margin-top: 20px;
+    max-width: 380px;
+  }
 
   .contactButton {
     width: auto;

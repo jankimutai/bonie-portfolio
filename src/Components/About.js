@@ -37,10 +37,13 @@ const About = () => {
       <div className='experience'>
       <h2 className='heading'>03 Experience</h2>
       <div className='experience-entry'>
+      <span className='employer'>
       <h3 className='experience-title'>AUDIT ASSISTANT</h3>
       <h4 className='experience-title'>BACE PARTNERS LLP</h4>
       <p className='experience-date'>01/2024 – Present</p>
-      <h4 className='experience-title'>Key Resposibilities</h4>
+      </span>
+      
+      <h3>Key Resposibilities</h3>
       <ul className='accomplishments-list'>
         <li className='accomplishments'>Assisting in the planning and execution of audit procedures</li>
         <li className='accomplishments'>Conducting tests of controls and substantive testing under the supervision of senior auditors.</li>
@@ -56,9 +59,9 @@ const About = () => {
       </div>
       <div className='experience-entry'>
         <h3 className='experience-title'>ACCOUNTS ASSISTANT</h3>
-        <h4>ELPRIS LTD</h4>
+        <h4 className='experience-title'>ELPRIS LTD</h4>
         <p className='experience-date'>04/2023 – 01/2024</p>
-        <h4 className='experience-title'>Key Resposibilities</h4>
+        <h3>Key Resposibilities</h3>
         <ul className='accomplishments-list'>
           <li className='accomplishments'>Accurately record financial transactions, including sales, purchases, expenses, and other financial activities.</li>
           <li className='accomplishments'>Monitoring and managing accounts receivable, invoicing clients, and ensuring timely collection of payments</li>
@@ -70,9 +73,9 @@ const About = () => {
       </div>
       <div className='experience-entry'>
         <h3 className='experience-title'>ACCOUNTS INTERN</h3>
-        <h4>ALEXANDRIA CANCER CENTRE AND PALLIATIVE CARE HOSPITAL</h4>
+        <h4 className='experience-title'>ALEXANDRIA CANCER CENTRE AND PALLIATIVE CARE HOSPITAL</h4>
         <p className='experience-date'>2022 – 2023</p>
-        <h4 className='experience-title'>Key Resposibilities</h4>
+        <h3>Key Resposibilities</h3>
         <ul className='accomplishments-list'>
           <li className='accomplishments'>Assisted in entering financial data into accounting software and maintaining
             organized and accurate records of transactions.</li>
@@ -89,9 +92,9 @@ const About = () => {
       </div>
       <div className='experience-entry'>
         <h3 className='experience-title'>INDUSTRIAL ATTACHEMENT</h3>
-        <h4>KENYA POWER AND LIGHTING COMPANY</h4>
+        <h4 className='experience-title'>KENYA POWER AND LIGHTING COMPANY</h4>
         <p className='experience-date'>01/2020 – 04/2020</p>
-        <h4 className='experience-title'>Key Resposibilities</h4>
+        <h3>Key Resposibilities</h3>
         <ul className='accomplishments-list'></ul>
         <li className='accomplishments'>Assisted in entering financial data into accounting software and maintaining
           organized and accurate records of transactions.</li>

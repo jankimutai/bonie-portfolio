@@ -5,26 +5,35 @@ import "../Styles/contact.css"
 const Contact = () => {
   return (
     <div className='contact-element'>
-    <h3 className='heading'>Get In Touch</h3>
-    <h3 className='heading'>Need to talk or make inquiries on my work?</h3>
+    <div className='contact-cont' >
+    <h2 className='heading'>05 Contact</h2>
+    
+      <div className='part'>
+      <p className='paragraph-'>Need to talk or make inquiries on my work?</p>
       <div className="contact-container">
-          
-          
           <div className="contact-card email-card">
-            <TfiEmail  className='icon'/>
-            <p>
-              <a href="mailto:bonifacengare2017@gmail.com">bonifacengare2017@gmail.com</a>
-            </p>
+            <a 
+              className='email'
+              href="mailto:bonifacengare2017@gmail.com"
+            >
+              <TfiEmail  className='icon'/>
+              <span className='email-text'>bonifacengare2017@gmail.com</span>
+            </a>
           </div>
           <div className="contact-card phone-card">
+            <a className="tel" href="tel:+254728873078"
+            >
             <IoIosCall className='icon' />
-            <p>+254728873078</p>
+            <span className='tel-text'>+254728873078</span>
+            </a>
           </div>
           
         </div>
+      </div>
         <div>
           
         </div>
+    </div>
     </div>
   );
 };

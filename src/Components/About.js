@@ -5,13 +5,18 @@ import "../Styles/about.css"
 const About = () => {
   return (
     <div className="about-accountant">
+      <h2 className='heading'>01 About Me</h2>
       <div className="accountant-details">
-        <h2 className='heading'>01 About Me</h2>
+        
         <p className='about-paragraph'>
           I am a dedicated and experienced accountant based in Kenya. With a strong
           financial background, I provide top-notch accounting services to businesses
           and individuals.
         </p>
+        <p className='about-paragraph'>In addition to my expertise in financial matters, I excel in various accounting software, including but not limited to QuickBooks, SAP, and Microsoft Excel. My meticulous attention to detail ensures accuracy in financial record-keeping, and my proficiency in financial analysis allows me to provide valuable insights into the financial health of the organizations I serve.</p>
+        <p className='about-paragraph'>As an audit assistant, I have gained hands-on experience in conducting comprehensive financial audits and assessments. My role involves collaborating with audit teams to examine financial statements, internal controls, and compliance with regulatory standards. I am adept at identifying discrepancies and recommending corrective actions to enhance financial integrity.</p>
+        <p className='about-paragraph'>Beyond my technical skills, I am known for my excellent communication and interpersonal abilities. Whether working independently or as part of a team, I am able to effectively convey complex financial information in a clear and understandable manner. I believe that open communication is essential for building trust with clients and stakeholders.</p>
+        <p className='about-paragraph'>Overall, my dedication to excellence, coupled with my extensive experience and diverse skill set, makes me a valuable asset to any organization seeking a reliable and skilled accountant or audit assistant. I am passionate about contributing to the financial success of businesses and individuals, and I look forward to leveraging my expertise to drive positive outcomes for my clients.</p>
       </div>
 
       <div className="accountant-skills">
@@ -33,7 +38,7 @@ const About = () => {
       <h2 className='heading'>03 Experience</h2>
       <div className='experience-entry'>
       <h3 className='experience-title'>AUDIT ASSISTANT</h3>
-      <h4 className='experience-title'>BACE PARTNERS</h4>
+      <h4 className='experience-title'>BACE PARTNERS LLP</h4>
       <p className='experience-date'>01/2024 – Present</p>
       <h4 className='experience-title'>Key Resposibilities</h4>
       <ul className='accomplishments-list'>

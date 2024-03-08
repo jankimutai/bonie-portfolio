@@ -1,16 +1,19 @@
-/* Default styles */
+Default styles
 #about{
     background: rgba(0, 0, 0, 0.04);
-    padding: 20px;
+    height: auto;
 }
 .about-accountant {
-    margin: 0 auto;
-    padding: 10px;
     width: 80%;
     margin: auto;
   }
   
 
+  .accountant-details{
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 25px;
+    padding: 20px;
+  }
   
   .accountant-details p {
     font-size: 17pt;
@@ -20,6 +23,11 @@
   
   .accountant-skills ul {
     list-style-type: none;
+
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 10px;
   }
   
   .accountant-skills li {
@@ -60,7 +68,7 @@
     display: flex;
     flex-direction: row; /* Display entries in a row */
     justify-content: space-around;
-    padding: 10px;
+    padding: 20px;
     background: rgba(0, 0, 0, 0.01);
     border-radius: 25px;
   }
@@ -101,7 +109,7 @@
   
   
   .experience-entry {
-    padding: 27px;
+    padding: 17px;
     /* box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1); */
     margin-bottom: 20px;
     background: rgba(0, 0, 0, 0.01);
@@ -134,7 +142,6 @@
     margin-bottom: 10px;
     position: relative;
     padding-left: 25px;
-    margin-bottom: 10px;
     font-size: 17pt;
     line-height: 1.5;
     transition: color 0.3s ease;
@@ -162,18 +169,22 @@
       width: 90%; /* Adjust width as needed */
       margin: auto;
     }
-  
+    .accountant-details{
+      padding: 6px;
+    }
     .accountant-details p {
       font-size: 14pt;
     }
-  
+    .accountant-skills ul{
+      padding: 6px;
+    }
     .accountant-skills li {
       font-size: 14pt;
     }
   
     /* Skills Section */
     .skills {
-      padding-left: 10px;
+      padding-left: 9px;
     }
   
     .skill {

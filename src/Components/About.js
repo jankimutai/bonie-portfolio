@@ -24,29 +24,9 @@ const About = () => {
           <li className='skill'>Bookkeeping</li>
         </ul>
       </div>
-      <div className='education'>
-      <h2 className='heading'>03 Education</h2>
-      <div className="education-container">
-        
-        <div className="education-entry">
-          <FontAwesomeIcon icon={faGraduationCap} size="3x" className="education-icon" />
-          <div className="education-content">
-            <h4 className='education-heading'>Jan 2018 - December 2023</h4>
-            <h3 className='element-title'>Elgon View College</h3>
-            <p className='element-paragraph'>Certified Public Accountants (CPA)</p>
-          </div>
-      </div>
-        <div className="education-entry">
-        <FontAwesomeIcon icon={faGraduationCap} size="3x" className="education-icon" />
-        <div className="education-content">
-          <h4 className='education-heading'>May 2017 - December 2021</h4>
-          <h3 className='element-title'>Kabarak University</h3>
-          <p className='element-paragraph'>Bachelor of Business Management and Information Technology</p>
-        </div>
-      </div>
-      </div>
+      
       <div className='experience'>
-      <h2 className='heading'>04 Experience</h2>
+      <h2 className='heading'>03 Experience</h2>
       <div className='experience-entry'>
         <h3 className='experience-title'>Accounts Assistant</h3>
         <h4>ELPRIS LTD</h4>
@@ -89,7 +69,29 @@ const About = () => {
       </div>
 
     </div>
+    <div className='education'>
+      <h2 className='heading'>04 Education</h2>
+      <div className="education-container">
+        
+        <div className="education-entry">
+          <FontAwesomeIcon icon={faGraduationCap} size="3x" className="education-icon" />
+          <div className="education-content">
+            <h4 className='education-heading'>Jan 2018 - December 2023</h4>
+            <h3 className='element-title'>Elgon View College</h3>
+            <p className='element-paragraph'>Certified Public Accountants (CPA)</p>
+          </div>
       </div>
+        <div className="education-entry">
+        <FontAwesomeIcon icon={faGraduationCap} size="3x" className="education-icon" />
+        <div className="education-content">
+          <h4 className='education-heading'>May 2017 - December 2021</h4>
+          <h3 className='element-title'>Kabarak University</h3>
+          <p className='element-paragraph'>Bachelor of Business Management and Information Technology</p>
+        </div>
+      </div>
+      </div>
+      </div>
+      
     </div>
   );
 };

@@ -104,13 +104,22 @@
     border-radius: 10px;
     
   }
+  .employer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap:2px;
+
+  }
   
-  
-  
+  .experience-date{
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+  }
   
   .experience-title{
-    font-size: 17pt;
-    
+    font-size: 1.7rem;  
   }
   .experience-entry h3{
     text-decoration: underline;
@@ -197,10 +206,7 @@
     .experience-entry {
       padding: 10px;
     }
-    .employer {
-      flex-direction: column; /* Stack elements on smaller screens */
-      align-items: flex-start; /* Align elements to the start on smaller screens */
-    }
+    
     .experience-title{
       font-size: 15pt;
       

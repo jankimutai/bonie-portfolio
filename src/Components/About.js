@@ -37,10 +37,11 @@ const About = () => {
       <div className='experience'>
       <h2 className='heading'>03 Experience</h2>
       <div className='experience-entry'>
+      <h4 className='experience-title'>BACE PARTNERS LLP</h4>
       <span className='employer'>
       <h3 className='experience-title'>AUDIT ASSISTANT</h3>
-      <h4 className='experience-title'>BACE PARTNERS LLP</h4>
-      <p className='experience-date'>01/2024 – Present</p>
+      
+      <p className='experience-date'>01/2024 –  Present</p>
       </span>
       
       <h3>Key Resposibilities</h3>
@@ -58,9 +59,12 @@ const About = () => {
 
       </div>
       <div className='experience-entry'>
-        <h3 className='experience-title'>ACCOUNTS ASSISTANT</h3>
-        <h4 className='experience-title'>ELPRIS LTD</h4>
-        <p className='experience-date'>04/2023 – 01/2024</p>
+      <h4 className='experience-title'>ELPRIS LTD</h4>
+        <span className='employer'>
+          <h3 className='experience-title'>ACCOUNTS ASSISTANT</h3>
+       
+          <p className='experience-date'>04/2023 – 01/2024</p>
+        </span>
         <h3>Key Resposibilities</h3>
         <ul className='accomplishments-list'>
           <li className='accomplishments'>Accurately record financial transactions, including sales, purchases, expenses, and other financial activities.</li>
@@ -72,9 +76,12 @@ const About = () => {
         </ul>
       </div>
       <div className='experience-entry'>
+      <h4 className='experience-title'>ALEXANDRIA CANCER CENTRE AND PALLIATIVE CARE HOSPITAL</h4>
+        <span className='employer'>
         <h3 className='experience-title'>ACCOUNTS INTERN</h3>
-        <h4 className='experience-title'>ALEXANDRIA CANCER CENTRE AND PALLIATIVE CARE HOSPITAL</h4>
-        <p className='experience-date'>2022 – 2023</p>
+        
+        <p className='experience-date'>12/2022 – 03/2023</p>
+        </span>
         <h3>Key Resposibilities</h3>
         <ul className='accomplishments-list'>
           <li className='accomplishments'>Assisted in entering financial data into accounting software and maintaining
@@ -91,9 +98,12 @@ const About = () => {
         </ul>
       </div>
       <div className='experience-entry'>
+      <h4 className='experience-title'>KENYA POWER AND LIGHTING COMPANY</h4>
+        <span className='employer'>
         <h3 className='experience-title'>INDUSTRIAL ATTACHEMENT</h3>
-        <h4 className='experience-title'>KENYA POWER AND LIGHTING COMPANY</h4>
-        <p className='experience-date'>01/2020 – 04/2020</p>
+       
+       <p className='experience-date'>01/2020 – 04/2020</p>
+        </span>
         <h3>Key Resposibilities</h3>
         <ul className='accomplishments-list'></ul>
         <li className='accomplishments'>Assisted in entering financial data into accounting software and maintaining

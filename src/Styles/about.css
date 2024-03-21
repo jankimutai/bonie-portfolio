@@ -63,7 +63,6 @@
   .education-entry {
     display: flex;
     align-items: center;
-    
     padding: 10px;
     
   }
@@ -90,41 +89,33 @@
   .education-heading {
     font-size: 1.3rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
     text-align: left;
   }
-  
+  .experience-entry{
+    padding: 10px;
+    box-shadow: 0px 9px 22px rgba(5, 218, 255, 0.1);
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
 
   
   
-  .experience-entry {
-    padding: 15px;
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
-    margin-bottom: 10px;
-    border-radius: 10px;
-    
-  }
-  .employer{
+  
+  .employer {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap:2px;
-
   }
   
-  .experience-date{
-    font-size: 1rem;
-    margin-bottom: 0.1rem;
+  .experience-date {
+    font-size: 16px; /* Adjusted font size */
+    color: #777;
   }
   
   .experience-title{
-    font-size: 1.7rem;  
+    font-size: 18pt;  
   }
-  .experience-entry h3{
-    text-decoration: underline;
-    
-  }
+  
   .accomplishments-list {
     list-style-type: disc;
     padding-left: 20px;

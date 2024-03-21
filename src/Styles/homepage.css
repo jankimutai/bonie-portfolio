@@ -91,12 +91,12 @@
 }
 
 .accountant-image {
-  width: 480px; /* Adjust the width as needed */
-  height: 480px;
-  object-fit: fill;
-  border-radius: 50%;
+  width: 100%;
+  max-width: 500px;
+  max-height: 600px;
+  border-radius: 25px;
   margin-right: 50px;
-  box-shadow: 0 0 2px 12px rgba(0, 0, 0, 0.04) inset, 0px 0px 6px #007bff;
+
   
 }
 
@@ -119,7 +119,7 @@
     width: 100%; /* Adjusted width for responsiveness */
     margin-right: 0;
     max-width: 280px;
-    max-height: 280px;
+    max-height: 335px;
     object-fit: fill;
   }
 
@@ -170,8 +170,7 @@
   .accountant-image {
     margin-top: 20px;
     max-width: 380px;
-    max-height: 380px;
-    object-fit: fill;
+    max-height: 455px;
     margin-bottom: 3px;
   }
 

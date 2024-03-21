@@ -1,7 +1,7 @@
 // HomePage.js
 
 import React from 'react';
-import AccountantImage from '../Assets/istockphoto-1495088043-612x612.jpg'; // Import your accountant image
+import AccountantImage from '../Assets/VIS_2710.jpg1.jpg'; // Import your accountant image
 import "../Styles/homepage.css"
 import Footer from './Footer';
 import About from './About';

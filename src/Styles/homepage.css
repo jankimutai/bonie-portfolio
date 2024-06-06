@@ -102,7 +102,7 @@
 
 @media screen and (max-width: 767px) {
   .homepage {
-    padding:  0 6px; /* Adjusted padding for small screens */
+    padding:  0 10px; /* Adjusted padding for small screens */
     margin-top: 75px;
     width: auto;
     

@@ -6,11 +6,33 @@
     border-top: 4px solid rgba(0, 0, 0, 0.06);
     border-bottom: 4px solid rgba(0, 0, 0, 0.06);
 }
+.heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: center;
+  position: relative;
+}
+.heading::before {
+  content: '';
+  width: 50px;
+  height: 3px;
+  background-color: #007BFF;
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .about-accountant {
     width: 80%;
     margin: auto;
   }
-  
+  .accountant-details{
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 8px
+  }
 
   
   .accountant-details p {
@@ -35,50 +57,40 @@
     padding-left: 0;
   }
   .skill {
-    position: relative;
-    padding-left: 25px;
-    margin-bottom: 10px;
-    font-size: 17pt;
-    line-height: 1.5;
-    transition: color 0.3s ease;
+    background-color: #e0e0e0;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    color: #333;
   }
-  .skill::before {
-    content: '\2713'; /* Unicode character for a checkmark */
-    color: #27ae60; /* Color for the checkmark */
-    font-size: 1.2em;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+  
   
   /* Education Component Styles */
   .education-container {
     display: flex;
-    flex-direction: row; /* Display entries in a row */
-    justify-content: space-around;
-    padding: 10px;
-  }
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   }
   
-  .education-entry {
+   .education-entry {
     display: flex;
     align-items: center;
-    padding: 10px;
+    margin-bottom: 20px;
     
-  }
+    border-radius: 7px;
+    padding: 27px;
+   }
   
   .education-icon {
     color: #0056b3;
     margin-right: 0.5rem;
   }
-  
   .element-title {
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 0.5rem;
-    text-align: left;
-  }
-  
+    margin-bottom: 5px;
+   }
   .element-paragraph {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
@@ -91,11 +103,11 @@
     font-weight: bold;
     text-align: left;
   }
-  .experience-entry{
+  .experience-entry {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
     padding: 10px;
-    box-shadow: 0px 9px 22px rgba(5, 218, 255, 0.1);
-    border-radius: 12px;
-    margin-bottom: 15px;
   }
 
   
@@ -103,17 +115,20 @@
   
   .employer {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 8px;
   }
-  
+ 
   .experience-date {
-    font-size: 16px; /* Adjusted font size */
+    font-size: 0.9em;
     color: #777;
+    margin-top: 4px;
   }
-  
-  .experience-title{
-    font-size: 18pt;  
+   .experience-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
   }
   
   .accomplishments-list {
@@ -122,26 +137,19 @@
   }
   
   .accomplishments {
-    margin-bottom: 10px;
     position: relative;
-    padding-left: 25px;
+    padding: 10px;
     font-size: 17pt;
     line-height: 1.5;
     transition: color 0.3s ease;
-
     list-style-type: none;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    background-color: #e5e7ea;
  
   }
-  .accomplishments::before {
-    content: '\2713'; /* Unicode character for a checkmark */
-    color: #27ae60; /* Color for the checkmark */
-    font-size: 1.2em;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
+  
+  
   @media screen and (max-width: 767px) {
     /* About Section */
     #about {

@@ -1,79 +1,82 @@
-#contact {
-  height: auto;
-  background: rgba(0, 0, 0, 0.07);
-}
-
 .contact-element {
-  width: 80%;
-  margin: auto;
-  
+  background-color: #f8f9fa;
+  padding: 4rem 0;
 }
 
 .contact-cont {
-  padding: 27px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 
 
-.contact-heading {
-  font-size: 20px;
+.part {
+  text-align: center;
 }
+
+
 
 .contact-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 2rem;
   flex-wrap: wrap;
-  gap: 10px;
 }
 
-.contact-card a {
+.contact-card {
+  background-color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px -2px rgba(9, 30, 66, 0.25), 0px 0px 0px 1px rgba(9, 30, 66, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 280px;
+}
+
+
+
+.email, .tel {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin: 10px;
-  padding: 20px;
-}
-
-.contact-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.email-card,
-.phone-card {
-    background-color: rgba(0, 0, 0, 0.03);
-    border: 1px solid #ddd;
-    border-radius: 25px;
-    transition: box-shadow 0.3s ease-in-out;
+  gap: 1rem;
+  text-decoration: none;
+  color: #2c3e50;
+  font-size: 1.1rem;
 }
 
 .icon {
-    font-size:2.5rem; 
-    margin-bottom:1rem; 
+  font-size: 1.8rem;
+  color: #3498db;
+  transition: transform 0.3s ease;
 }
 
-.email,
-.tel {
-    text-decoration:none; 
-    color:#333; 
-    font-size:15pt; 
+
+.email-text, .tel-text {
+  word-break: break-word;
 }
 
-@media screen and (max-width:768px) {
-    .contact-element {
-        width:100%;
-    }
-    
-    .contact-card {
-        width:90%;
-        margin:auto;
-    }
-    
-    .icon {
-        font-size:19pt;
-    }
-    
-    .tel-text,
-    .email-text {
-        font-size:14pt;
-    }
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .contact-cont {
+    padding: 0 1rem;
+  }
+  .contact-card {
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+  }
+
+  .email, .tel {
+    font-size: 1rem;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
 }
+
+/* Hover states for accessibility */
+.email:hover, .tel:hover {
+  color: #3498db;
+}
+
+

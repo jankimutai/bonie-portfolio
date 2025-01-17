@@ -1,122 +1,29 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faCertificate } from '@fortawesome/free-solid-svg-icons';
 import "../Styles/about.css"
-
+import Experience from './Experience';
+import Skills from './Skills';
 const About = () => {
   return (
     <div className="about-accountant">
-      <h2 className='heading'>01 About Me</h2>
+      <h2 className='heading'>About Me</h2>
       <div className="accountant-details">
         <p className='about-paragraph'>
-          I am a dedicated and experienced accountant based in Kenya. With a strong
-          financial background, I provide top-notch accounting services to businesses
-          and individuals.
-        </p>
-        <p className='about-paragraph'>
-          In addition to my expertise in financial matters, I excel in various accounting software, including but not limited to QuickBooks, SAP, and Microsoft Excel. My meticulous attention to detail ensures accuracy in financial record-keeping, and my proficiency in financial analysis allows me to provide valuable insights into the financial health of the organizations I serve.
-        </p>
-        <p className='about-paragraph'>
-          As an audit assistant, I have gained hands-on experience in conducting comprehensive financial audits and assessments. My role involves collaborating with audit teams to examine financial statements, internal controls, and compliance with regulatory standards. I am adept at identifying discrepancies and recommending corrective actions to enhance financial integrity.
-        </p>
-        <p className='about-paragraph'>
-          Beyond my technical skills, I am known for my excellent communication and interpersonal abilities. Whether working independently or as part of a team, I am able to effectively convey complex financial information in a clear and understandable manner. I believe that open communication is essential for building trust with clients and stakeholders.
-        </p>
-        <p className='about-paragraph'>
-          Overall, my dedication to excellence, coupled with my extensive experience and diverse skill set, makes me a valuable asset to any organization seeking a reliable and skilled accountant or audit assistant. I am passionate about contributing to the financial success of businesses and individuals, and I look forward to leveraging my expertise to drive positive outcomes for my clients.
+          I am a dedicated accountant based in Kenya, offering top-notch accounting services with expertise in QuickBooks, SAP, and Microsoft Excel. My meticulous attention to detail ensures accuracy in financial record-keeping, while my proficiency in financial analysis provides valuable insights into organizational health. With hands-on experience as an audit assistant, I excel in conducting audits, examining financial statements, and ensuring compliance with regulatory standards. Known for my communication and interpersonal skills, I effectively convey complex financial information and foster trust with clients. My diverse skill set and commitment to excellence make me a reliable asset for businesses and individuals seeking financial success.
         </p>
       </div>
-
-      <div className="accountant-skills">
-        <h2 className='heading'>02 Skills</h2>
-        <ul className='skills'>
-          <li className='skill'>Financial Reporting (Disclosure Requirement, Financial statements preparation and Internal controls)</li>
-          <li className='skill'>Budgeting and Forecasting</li>
-          <li className='skill'>Tax Planning</li>
-          <li className='skill'>Auditing</li>
-          <li className='skill'>Bookkeeping</li>
-          <li className='skill'>Leadership (Decision Making, Delegation, Resilience, Integrity, Collaboration, Coaching and Development)</li>
-          <li className='skill'>Ethical Judgement</li>
-          <li className='skill'>Time Management</li>
-          <li className='skill'>QuickBooks (Chart of accounts Management, Navigation, Bank Reconciliation and Data entry)</li>
-        </ul>
-      </div>
-
-      <div className='experience'>
-        <h2 className='heading'>03 Experience</h2>
-        <div className='experience-entry'>
-          <h4 className='experience-company'>BACE PARTNERS LLP</h4>
-          <div className='experience-details'>
-            <h3 className='experience-title'>Audit Assistant</h3>
-            <p className='experience-date'>01/2024 – Present</p>
-          </div>
-          <h3>Key Responsibilities</h3>
-          <ul className='accomplishments-list'>
-            <li className='accomplishments'>Assisting in the planning and execution of audit procedures.</li>
-            <li className='accomplishments'>Conducting tests of controls and substantive testing under the supervision of senior auditors.</li>
-            <li className='accomplishments'>Gathering and analyzing financial data and documents.</li>
-            <li className='accomplishments'>Documenting audit procedures and findings.</li>
-            <li className='accomplishments'>Communicating with clients to obtain necessary information and clarify audit issues.</li>
-            <li className='accomplishments'>Contributing to the preparation of audit reports and recommendations.</li>
-            <li className='accomplishments'>Adhering to auditing standards and regulatory requirements.</li>
-            <li className='accomplishments'>Participating in meetings and discussions with audit team members and clients.</li>
-            <li className='accomplishments'>Continuously learning and improving auditing skills and knowledge.</li>
-          </ul>
-        </div>
-        <div className='experience-entry'>
-          <h4 className='experience-company'>ELPRIS LTD</h4>
-          <div className='experience-details'>
-            <h3 className='experience-title'>Accounts Assistant</h3>
-            <p className='experience-date'>04/2023 – 01/2024</p>
-          </div>
-          <h3>Key Responsibilities</h3>
-          <ul className='accomplishments-list'>
-            <li className='accomplishments'>Accurately record financial transactions, including sales, purchases, expenses, and other financial activities.</li>
-            <li className='accomplishments'>Monitoring and managing accounts receivable, invoicing clients, and ensuring timely collection of payments.</li>
-            <li className='accomplishments'>Monitoring and controlling expenses, identifying areas for cost savings and ensuring adherence to budgetary constraints.</li>
-            <li className='accomplishments'>Utilize accounting software and tools to streamline financial processes and enhance efficiency.</li>
-            <li className='accomplishments'>Maintaining organized and accurate financial records, both physical and electronic, for easy retrieval and reference.</li>
-            <li className='accomplishments'>Assisting in preparing documents and information for tax filings, ensuring compliance with KRA regulations.</li>
-          </ul>
-        </div>
-        <div className='experience-entry'>
-          <h4 className='experience-company'>ALEXANDRIA CANCER CENTRE AND PALLIATIVE CARE HOSPITAL</h4>
-          <div className='experience-details'>
-            <h3 className='experience-title'>Accounts Intern</h3>
-            <p className='experience-date'>12/2022 – 03/2023</p>
-          </div>
-          <h3>Key Responsibilities</h3>
-          <ul className='accomplishments-list'>
-            <li className='accomplishments'>Assisted in entering financial data into accounting software and maintaining organized and accurate records of transactions.</li>
-            <li className='accomplishments'>Support the reconciliation of bank statements with the company's financial records to ensure accuracy and identify any discrepancies.</li>
-            <li className='accomplishments'>Assisted in maintaining organized and up-to-date financial documentation, both physical and electronic, for easy reference and retrieval.</li>
-            <li className='accomplishments'>Conducted research on accounting and financial topics, assisting in the analysis of financial data to support decision-making processes.</li>
-            <li className='accomplishments'>Worked collaboratively with other team members, departments, and external stakeholders, effectively communicating and contributing to the overall success of the accounting team.</li>
-          </ul>
-        </div>
-        <div className='experience-entry'>
-          <h4 className='experience-company'>KENYA POWER AND LIGHTING COMPANY</h4>
-          <div className='experience-details'>
-            <h3 className='experience-title'>Industrial Attachment</h3>
-            <p className='experience-date'>01/2020 – 04/2020</p>
-          </div>
-          <h3>Key Responsibilities</h3>
-          <ul className='accomplishments-list'>
-            <li className='accomplishments'>Assisted in entering financial data into accounting software and maintaining organized and accurate records of transactions.</li>
-            <li className='accomplishments'>Maintaining organized and accurate financial records, both physical and electronic, for easy retrieval and reference.</li>
-          </ul>
-        </div>
-      </div>
-
+      <Skills />
+      <Experience />
       <div className='education'>
-        <h2 className='heading'>04 Education</h2>
+        <h2 className='heading'>Education & Certifications</h2>
         <div className="education-container">
-          <div className="education-entry">
-            <FontAwesomeIcon icon={faGraduationCap} size="3x" className="education-icon" />
-            <div className="education-content">
-              <h4 className='education-heading'>Jan 2018 - December 2023</h4>
-              <h3 className='element-title'>Elgon View College</h3>
-              <p className='element-paragraph'>Certified Public Accountants (CPA)</p>
+          <div className="certification-entry">
+            <FontAwesomeIcon icon={faCertificate} size="3x" className="certification-icon" />
+            <div className="certification-content">
+              <h4 className='certification-heading'>Jan 2018 - December 2023</h4>
+              <h3 className='certification-title'>Elgon View College</h3>
+              <p className='certification-paragraph'>Certified Public Accountants (CPA)</p>
             </div>
           </div>
           <div className="education-entry">
@@ -125,6 +32,50 @@ const About = () => {
               <h4 className='education-heading'>May 2017 - December 2021</h4>
               <h3 className='element-title'>Kabarak University</h3>
               <p className='element-paragraph'>Bachelor of Business Management and Information Technology</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="testimonials">
+        <h2 className="heading">Testimonials</h2>
+        <div className="testimonials-container">
+          <div className="testimonial-card">
+            <div className="testimonial-content">
+              <div className="quote-icon">❝</div>
+              <p className="testimonial-text">
+                "An exceptional accountant who transformed our financial processes. Their attention to detail and strategic insights have been invaluable to our business growth."
+              </p>
+              <div className="testimonial-author">
+                <h4 className="author-name">John Smith</h4>
+                <p className="author-title">CEO, Tech Solutions Ltd</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="testimonial-card">
+            <div className="testimonial-content">
+              <div className="quote-icon">❝</div>
+              <p className="testimonial-text">
+                "Highly professional and knowledgeable in all aspects of accounting. Their tax planning advice has saved us significant amounts and kept us fully compliant."
+              </p>
+              <div className="testimonial-author">
+                <h4 className="author-name">Sarah Johnson</h4>
+                <p className="author-title">Director, Innovation Hub</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="testimonial-card">
+            <div className="testimonial-content">
+              <div className="quote-icon">❝</div>
+              <p className="testimonial-text">
+                "Their expertise in auditing and financial analysis has been crucial for our organization. Always reliable, thorough, and professional in their approach."
+              </p>
+              <div className="testimonial-author">
+                <h4 className="author-name">Michael Chen</h4>
+                <p className="author-title">CFO, Global Ventures</p>
+              </div>
             </div>
           </div>
         </div>

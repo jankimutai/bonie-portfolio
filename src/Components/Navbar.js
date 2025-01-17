@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import '../Styles/navbar.css'; // Import your CSS file
-import logo from '../Assets/DEV-KIMUTAI (1).png';
 import { useNavigate } from 'react-router-dom';
 function NavBar() {
   const navigate = useNavigate()
@@ -24,7 +23,7 @@ function NavBar() {
       {/* Navigation for Large Screens */}
       <div className="nav-large">
         <div className="logo">
-          <img src={logo} alt="Logo" onClick={home} />
+          <h4 className='caligraphy'>Boniface Ngare</h4>
         </div>
 
         <div className="menu-center">
@@ -43,9 +42,16 @@ function NavBar() {
 
       <div className="nav-small">
       <div className="logo">
-          <img src={logo} alt="Logo" onClick={home} />
+        <h4 className='caligraphy'>Boniface Ngare</h4>
         </div>
-        <button className="menu-toggle" onClick={handleToggleMenu}>☰</button>
+        <button
+          className={`menu-toggle ${isMenuOpen ? 'open' : ''}`}
+          onClick={handleToggleMenu}
+          >
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </button>
         
         <ul className={isMenuOpen ? 'menu-list open' : 'menu-list'}>
         <li>

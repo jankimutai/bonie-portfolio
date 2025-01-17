@@ -1,13 +1,8 @@
 .footer {
-    padding: 10px 20px;
+  padding: 1rem 0;
     border: none;
     font-size: 16px;
     color: #fff;
-    letter-spacing: 4px;
-    font-weight: 600;
-    text-transform: uppercase;
-    transition: 0.5s;
-    transition-property: box-shadow;
   }
   
   .footer-content {
@@ -58,10 +53,6 @@
     font-size: 16px;
     color: #6c757d;
   }
-  
-  /* Dark mode styles */
- 
-  
   .light-mode-footer {
     background: #030d12;
     color: #6c757d;
@@ -84,8 +75,7 @@
   /* Styles for small screens (max-width: 768px) */
   @media screen and (max-width: 768px) {
     .footer {
-      padding: 10px 20px;
-      font-size: 14px; /* Adjusted font size for small screens */
+      font-size: 1rem;
       text-align: center;
     }
   

@@ -19,10 +19,10 @@ const Footer = ({ isDarkMode }) => {
               </ScrollLink>
           </div>
         <div className="personal-info-footer">
-        <p className='contact-me'>© 2024 | All Rights Reserved</p>
+        <p className='contact-me'>© 2025 | All Rights Reserved</p>
         </div>
         <div className="social-links-footer">
-          <p className='contact-me'>Developed with ❤️ by <a  className ="dev" href='https://jankim-portfolio.vercel.app/'>KIMUTAI JAN</a></p>  
+          <p className='contact-me'>Developed by <a  className ="dev" href='https://jankim-portfolio.vercel.app/'>KIMUTAI JAN</a></p>  
         </div>
       </div>
     </footer>

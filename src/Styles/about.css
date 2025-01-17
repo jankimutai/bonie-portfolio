@@ -1,241 +1,189 @@
-
-#about{
-    background: rgba(0, 0, 0, 0.06);
-    height: auto;
-    padding: 20px;
-    border-top: 4px solid rgba(0, 0, 0, 0.06);
-    border-bottom: 4px solid rgba(0, 0, 0, 0.06);
+/* About Section Container */
+.about-accountant {
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+/* Headings */
 .heading {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 16px;
+  color: #3182ce;
   text-align: center;
+  margin: 2.5rem 0;
+  font-size: 2rem;
+  font-weight: 600;
   position: relative;
 }
-.heading::before {
+
+.heading::after {
   content: '';
-  width: 50px;
+  display: block;
+  width: 60px;
   height: 3px;
-  background-color: #007BFF;
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  transform: translateX(-50%);
+  background-color: #3498db;
+  margin: 0.5rem auto;
 }
-.about-accountant {
-    width: 80%;
-    margin: auto;
-  }
-  .accountant-details{
+
+/* About Paragraph */
+.about-paragraph {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #4a5363;
+  margin-bottom: 24px;
+  padding: 10px;
+}
+
+/* Education Section */
+.education {
+  margin: 4rem 0;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.education-entry,
+.certification-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.education-entry:hover,
+.certification-entry:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.education-icon,
+.certification-icon {
+  color: #3498db;
+}
+
+.education-content,
+.certification-content {
+  flex: 1;
+}
+
+.education-heading,
+.certification-heading {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.element-title,
+.certification-title {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.element-paragraph,
+.certification-paragraph {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+  margin: 4rem 0;
+}
+
+.testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-content {
+  position: relative;
+}
+
+.quote-icon {
+  font-size: 3rem;
+  color: #3498db;
+  opacity: 0.2;
+  position: absolute;
+  top: -20px;
+  left: -10px;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-author {
+  text-align: right;
+}
+
+.author-name {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.author-title {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 767px) {
+  .about-accountant {
     padding: 10px;
-    background-color: #f2f2f2;
-    border-radius: 8px
+  }
+  .about-paragraph{
+    font-size: 1rem;
+    margin-bottom: 20px;
   }
 
-  
-  .accountant-details p {
-    font-size: 16pt;
-    line-height: 1.5;
-    transition: color 0.3s ease;
+  .heading {
+    font-size: 1.8rem;
   }
-  
-  .accountant-skills ul {
-    list-style-type: none;
+
+  .testimonials-container {
+    grid-template-columns: 1fr;
   }
-  
-  .accountant-skills li {
-    margin-bottom: 5px;
-    font-size: 17pt;
-    line-height: 1.5;
-    transition: color 0.3s ease;
-    position: relative;
-  }
-  .skills {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  .skill {
-    background-color: #e0e0e0;
-    padding: 0.5rem 1rem;
-    margin: 0.5rem 0;
-    border-radius: 5px;
-    color: #333;
-  }
-  
-  
-  /* Education Component Styles */
-  .education-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-   }
-  
-   .education-entry {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    box-shadow: 0px 20px 50px -10px rgba(196, 196, 196, 0.2);
-    border-radius: 12px;
-    padding: 27px;
-   }
-  
-  .education-icon {
-    color: #0056b3;
-    margin-right: 0.5rem;
-  }
-  .element-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-   }
-  .element-paragraph {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-  }
-  
-  
-  .education-heading {
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-align: left;
-  }
-  .experience-entry {
-    margin-bottom: 20px;
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
-  }
-  .experience-entry {
-    margin-bottom: 20px;
-    border-left: 4px solid #007bff; /* Adjust color as needed */
-    padding: 20px;
-  }
-  
-  
-  
-  .employer {
-    display: flex;
+
+  .education-entry,
+  .certification-entry {
     flex-direction: column;
-    margin-top: 8px;
+    align-items: center;
+    text-align: center;
   }
- 
-  .experience-date {
-    font-size: 0.9em;
-    color: #777;
-    margin-top: 4px;
-  }
-   .experience-title {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 8px;
-  }
-  .experience-company {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  .accomplishments-list {
-    list-style-type: disc;
-    padding-left: 20px;
-    margin-left: 10px;
-  }
-  
-  .accomplishments {
-    position: relative;
-    padding: 10px;
-    font-size: 16pt;
-    transition: color 0.3s ease;
-    border-radius: 5px;
-    
- 
-  }
-  
-  
-  @media screen and (max-width: 767px) {
-    /* About Section */
-    #about {
-      padding: 3px;
-    }
-  
-    .about-accountant {
-      width: 90%; /* Adjust width as needed */
-      margin: auto;
-    }
-  
-    .accountant-details p {
-      font-size: 14pt;
-    }
-  
-    .accountant-skills li {
-      font-size: 14pt;
-    }
-  
-    /* Skills Section */
-    .skills {
-      padding-left: 10px;
-    }
-  
-    .skill {
-      font-size: 14pt;
-      margin-bottom: 8px;
-    }
-  
-    /* Education Section */
-    .education-container {
-      flex-direction: column; /* Display entries in a column */
-      padding: 5px;
-    }
-  
-    .education-entry {
-      padding: 10px;
-    }
-  
-    .element-title {
-      font-size: 1.2rem;
-    }
-  
-    .element-paragraph {
-      font-size: 1rem;
-    }
-  
-    .education-heading {
-      font-size: 1.1rem;
-    }
-  
-    /* Experience Section */
-    .experience-entry {
-      padding: 10px;
-    }
-    
-    .experience-title{
-      font-size: 15pt;
-      
-    }
-  
-    .experience-entry h3 {
-      margin-bottom: 8px;
-    }
-  
-    .accomplishments-list {
-      padding-left: 15px;
-    }
-  
-    .accomplishments {
-      font-size: 14pt;
-      margin-bottom: 8px;
-    }
-  }
-  @media screen and (min-width: 768px) and (max-width: 1500px) {
-    .education-container {
-      flex-direction: column; /* Display entries in a column */
-      padding: 5px;
-    }
-  
-    .education-entry {
-      padding: 10px;
-    }
 
+  .education-icon,
+  .certification-icon {
+    margin-bottom: 1rem;
   }
+}
+@media screen and (min-width: 768px) and (max-width: 1500px) {
+  .about-paragraph{
+    font-size: 1.125rem;
+  }
+}

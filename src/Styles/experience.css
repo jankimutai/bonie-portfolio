@@ -1,8 +1,4 @@
-
-  
- 
-  
-  .experience-entry {
+.experience-entry {
     background-color: #f8f9fa;
     padding: 2rem;
     margin-bottom: 2rem;
@@ -11,10 +7,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  
-  
 
-  
   .experience-company {
     color: #3498db;
     font-size: 1.3rem;
@@ -59,20 +52,16 @@
   }
   
   .accomplishments::before {
-    content: '•';
+    content: '• ';
     color: #3498db;
     position: absolute;
     left: 0;
     font-size: 1.2rem;
   }
-  
   /* Responsive Design */
   @media screen and (max-width: 768px) {
-    
-
-  
     .experience-entry {
-      padding: 1.5rem;
+      padding: 1rem;
     }
   
     .experience-details {

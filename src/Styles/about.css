@@ -1,4 +1,5 @@
 /* About Section Container */
+
 .about-accountant {
   max-width: 1200px;
   margin: 0 auto;
@@ -6,7 +7,7 @@
 
 /* Headings */
 .heading {
-  color: #3182ce;
+  color: #2c3e50;
   text-align: center;
   margin: 2.5rem 0;
   font-size: 2rem;

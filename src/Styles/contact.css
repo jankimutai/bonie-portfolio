@@ -1,82 +1,105 @@
 .contact-element {
-  background-color: #f8f9fa;
-  padding: 4rem 0;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #f8f9fa, #ffffff);
 }
 
 .contact-cont {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
 }
 
-
-
-.part {
+.heading {
+  font-size: 2.5rem;
+  color: #2d3436;
   text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
 }
 
+.heading::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0984e3;
+  margin: 1rem auto;
+}
 
+.intro-text {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  color: #636e72;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
 
-.contact-container {
-  display: flex;
-  justify-content: center;
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  flex-wrap: wrap;
+  margin-bottom: 3rem;
 }
 
 .contact-card {
-  background-color: white;
-  padding: 1rem 1.5rem;
+  background: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 8px -2px rgba(9, 30, 66, 0.25), 0px 0px 0px 1px rgba(9, 30, 66, 0.08);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  min-width: 280px;
+  overflow: hidden;
 }
 
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
 
-
-.email, .tel {
+.contact-link {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  padding: 1.5rem;
+  color: #2d3436;
   text-decoration: none;
-  color: #2c3e50;
-  font-size: 1rem;
+  gap: 1rem;
 }
 
 .icon {
   font-size: 1.8rem;
-  color: #3498db;
-  transition: transform 0.3s ease;
+  color: #0984e3;
+  flex-shrink: 0;
+}
+
+.contact-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #2d3436;
+}
+
+.contact-info span {
+  display: block;
+  color: #636e72;
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
 }
 
 
-.email-text, .tel-text {
-  word-break: break-word;
-}
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-  .contact-cont {
-    padding: 0 1rem;
-  }
-  .contact-card {
-    width: 100%;
-    padding: 1.2rem 1.5rem;
+
+
+@media (max-width: 768px) {
+  .contact-element {
+    padding: 3rem 1rem;
   }
 
-  .email, .tel {
-    font-size: 1rem;
+  .heading {
+    font-size: 2rem;
   }
 
-  .icon {
-    font-size: 1.5rem;
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
   }
 }
-
-/* Hover states for accessibility */
-.email:hover, .tel:hover {
-  color: #3498db;
-}
-
-

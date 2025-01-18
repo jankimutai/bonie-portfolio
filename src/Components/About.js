@@ -44,11 +44,11 @@ const About = () => {
             <div className="testimonial-content">
               <div className="quote-icon">❝</div>
               <p className="testimonial-text">
-                "Their expertise in auditing and financial analysis has been crucial for our organization. Always reliable, thorough, and professional in their approach."
+                "His expertise in auditing and financial analysis has been crucial for our organization. Always reliable, thorough, and professional in his approach."
               </p>
               <div className="testimonial-author">
-                <h4 className="author-name">Evans Kimurgor</h4>
-                <p className="author-title">Director, BACE PARTNERS LLP</p>
+                <h4 className="author-name">CPA Bethwel Kirwa</h4>
+                <p className="author-title">Auditor, BACE PARTNERS LLP</p>
               </div>
             </div>
           </div>
@@ -70,10 +70,10 @@ const About = () => {
             <div className="testimonial-content">
               <div className="quote-icon">❝</div>
               <p className="testimonial-text">
-                "Highly professional and knowledgeable in all aspects of accounting. Their tax planning advice has saved us significant amounts and kept us fully compliant."
+                "He is an exceptional accountant with a remarkable ability to transform financial processes. His dedication, attention to detail, and insightful strategic guidance have been invaluable to our business growth."
               </p>
               <div className="testimonial-author">
-                <h4 className="author-name">Joseph Kiema</h4>
+                <h4 className="author-name">CPA Joseph Kiema</h4>
                 <p className="author-title">Senior Consultant, BACE PARTNERS LLP</p>
               </div>
             </div>

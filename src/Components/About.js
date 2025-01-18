@@ -48,7 +48,7 @@ const About = () => {
               </p>
               <div className="testimonial-author">
                 <h4 className="author-name">CPA Joseph Kiema</h4>
-                <p className="author-title">Auditor, BACE PARTNERS LLP</p>
+                <p className="author-title">Senior Consultant, BACE PARTNERS LLP</p>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const About = () => {
               </p>
               <div className="testimonial-author">
                 <h4 className="author-name">CPA Bethwel Kirwa</h4>
-                <p className="author-title">Senior Consultant, BACE PARTNERS LLP</p>
+                <p className="author-title">Auditor, BACE PARTNERS LLP</p>
               </div>
             </div>
           </div>

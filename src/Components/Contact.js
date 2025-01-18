@@ -41,7 +41,7 @@ const Contact = () => {
                 <IoIosCall className='icon' />
                 <div className="contact-info">
                   <h3>Phone</h3>
-                  <span className='tel-text'>+25728873078</span>
+                  <span className='tel-text'>+254728873078</span>
                 </div>
               </a>
             </div>

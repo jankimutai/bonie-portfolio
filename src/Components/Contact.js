@@ -12,9 +12,10 @@ const Contact = () => {
         
         <div className='part'>
           <p className='intro-text'>
-            I'm always open to new opportunities and collaborations. 
-            Whether you need accounting services, financial consulting, 
-            or just want to connect, feel free to reach out!
+          I’m dedicated to providing exceptional accounting services tailored to your unique needs. 
+          Whether you're an individual seeking financial guidance or a business looking for comprehensive accounting solutions, 
+          I'm here to help. Feel free to reach out.
+            
           </p>
 
           <div className="contact-grid">

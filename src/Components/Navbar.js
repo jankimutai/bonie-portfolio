@@ -23,7 +23,7 @@ function NavBar() {
       {/* Navigation for Large Screens */}
       <div className="nav-large">
         <div className="logo">
-          <h4 className='caligraphy'>Boniface Ngare</h4>
+          <h4 onClick={home} className='caligraphy'>Boniface Ngare</h4>
         </div>
 
         <div className="menu-center">

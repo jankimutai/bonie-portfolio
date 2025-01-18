@@ -22,7 +22,7 @@ const Footer = ({ isDarkMode }) => {
         <p className='contact-me'>© 2025 | All Rights Reserved</p>
         </div>
         <div className="social-links-footer">
-          <p className='contact-me'>Developed by <a  className ="dev" href='https://jankim-portfolio.vercel.app/'>KIMUTAI JAN</a></p>  
+          <p className='contact-me'>Developed by <a  className ="dev" href='https://jankim-portfolio.vercel.app/'>Kimutai Jan</a></p>  
         </div>
       </div>
     </footer>

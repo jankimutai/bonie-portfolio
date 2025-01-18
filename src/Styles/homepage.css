@@ -100,6 +100,8 @@
   width: 400px;
   height: 400px;
   border-radius: 50%;
+  -moz-border-radius: 36px 200px 200px 200px;
+  border: 11px groove #90cdf420;
   overflow: hidden;
   object-fit: contain;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -216,11 +218,11 @@
     margin-right: 10px; /* Adjust as needed for spacing between buttons */
     text-align: center;
     font-size: 0.9rem;
-    padding: 10px 18px;
+    padding: 7px 15px;
   }
   .buttons {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: start;
     
   }
 }
@@ -233,11 +235,12 @@
   }
 
   .accountant-preview {
-    max-width: 1000px;
+    flex-direction: column-reverse;
+    align-items: center;
   }
 
   .preview-text {
-    padding: 20px;
+    max-width: 100%;
   }
 
   .accountant-name {

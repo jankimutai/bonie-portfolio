@@ -40,6 +40,18 @@ const About = () => {
       <div className="testimonials">
         <h2 className="heading">Testimonials</h2>
         <div className="testimonials-container">
+        <div className="testimonial-card">
+            <div className="testimonial-content">
+              <div className="quote-icon">❝</div>
+              <p className="testimonial-text">
+                "Their expertise in auditing and financial analysis has been crucial for our organization. Always reliable, thorough, and professional in their approach."
+              </p>
+              <div className="testimonial-author">
+                <h4 className="author-name">Evans Kimurgor</h4>
+                <p className="author-title">Director, BACE PARTNERS LLP</p>
+              </div>
+            </div>
+          </div>
           <div className="testimonial-card">
             <div className="testimonial-content">
               <div className="quote-icon">❝</div>
@@ -47,11 +59,12 @@ const About = () => {
                 "An exceptional accountant who transformed our financial processes. Their attention to detail and strategic insights have been invaluable to our business growth."
               </p>
               <div className="testimonial-author">
-                <h4 className="author-name">John Smith</h4>
-                <p className="author-title">CEO, Tech Solutions Ltd</p>
+                <h4 className="author-name">Kiprono Sawe</h4>
+                <p className="author-title">CEO, ELPRIS LTD</p>
               </div>
             </div>
           </div>
+
 
           <div className="testimonial-card">
             <div className="testimonial-content">
@@ -60,21 +73,8 @@ const About = () => {
                 "Highly professional and knowledgeable in all aspects of accounting. Their tax planning advice has saved us significant amounts and kept us fully compliant."
               </p>
               <div className="testimonial-author">
-                <h4 className="author-name">Sarah Johnson</h4>
-                <p className="author-title">Director, Innovation Hub</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="testimonial-card">
-            <div className="testimonial-content">
-              <div className="quote-icon">❝</div>
-              <p className="testimonial-text">
-                "Their expertise in auditing and financial analysis has been crucial for our organization. Always reliable, thorough, and professional in their approach."
-              </p>
-              <div className="testimonial-author">
-                <h4 className="author-name">Michael Chen</h4>
-                <p className="author-title">CFO, Global Ventures</p>
+                <h4 className="author-name">Joseph Kiema</h4>
+                <p className="author-title">Senior Consultant, BACE PARTNERS LLP</p>
               </div>
             </div>
           </div>

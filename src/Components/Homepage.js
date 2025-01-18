@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import AccountantImage from '../Assets/VIS_2710.jpg1.jpg';
 import "../Styles/homepage.css"
@@ -21,10 +21,8 @@ const HomePage = () => {
         
         <div className="preview-text">
           <p className='accountant-name'>👋🏾 Hello, <span>I'm Ngare Boniface.</span></p>
-          <p className='paragraph-'> A Dedicated and detail-oriented Accountant Assistant/Bookkeeper with a strong foundation in financial
-            management and a proven track record of accuracy and efficiency. Seeking to leverage my accounting
-            skills and meticulous attention to detail to contribute to a dynamic audit team as an Audit Assistant or
-            Audit Trainee
+          <p className='paragraph-'> I offer a range of services, including financial reporting, tax preparation, auditing, bookkeeping, and financial analysis. 
+            My goal is to help clients reach their financial objectives while staying compliant with all relevant regulations. I’m passionate about making finance understandable and accessible, so you can focus on what you do best!
           </p>
           <p className='paragraph-'>
             Explore my portfolio to learn more about my work and achievements.

@@ -9,7 +9,7 @@
 .heading {
   color: #2c3e50;
   text-align: center;
-  margin: 2.5rem 0;
+  margin: 1rem 0;
   font-size: 2rem;
   font-weight: 600;
   position: relative;
@@ -186,5 +186,29 @@
 @media screen and (min-width: 768px) and (max-width: 1500px) {
   .about-paragraph{
     font-size: 1.125rem;
+  }
+  .about-accountant {
+    padding: 40px;
+  }
+  
+
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+
+  .education-entry,
+  .certification-entry {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .education-icon,
+  .certification-icon {
+    margin-bottom: 1rem;
   }
 }
